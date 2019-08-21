@@ -1,0 +1,17 @@
+server:
+  port: 9009
+spring:
+  application:
+    name: tensquare-sms
+  rabbitmq:
+    host: 172.21.4.157
+  mail:
+    host: smtp.sina.com
+    username: w440444@sina.com
+    password: 204499
+aliyun:
+  sms:
+    accessKeyId: LTAIsh1xUVJ2Qtak
+    accessKeySecret:  RPaz0sAbDk0iFYx3GdYyFkBuhEa4ZO
+    template_code: SMS_160855210
+    sign_name: oc
